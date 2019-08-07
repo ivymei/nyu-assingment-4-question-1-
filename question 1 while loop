@@ -1,0 +1,44 @@
+# include <iostream>
+
+/* reads a postitive interger n and prints the first n even numbers */
+
+
+
+using namespace std;
+
+int main () 
+{
+    
+    int n;
+ 
+    int counter;
+    int evenNumber; 
+    
+    
+  
+    
+    cout << " Please enter a postive integer:" ;
+    cin >> n;
+
+
+
+     counter = 0;
+   
+   while (counter < 2*n) {
+     
+       evenNumber=counter +=2;
+              
+       
+       cout << evenNumber << endl;
+   }
+   
+   
+   
+    return 0;
+    
+    
+    
+    
+    
+    
+}
